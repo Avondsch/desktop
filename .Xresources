@@ -1,0 +1,35 @@
+! Xterm:
+XTerm.vt100.scrollBar: false
+XTerm.vt100.internalBorder: 16
+XTerm.vt100.borderWidth: 0
+! Xft.rgba: none
+! Xft.hintstyle: hintfull
+XTerm.vt100.faceName: xft:FantasqueSansMono Nerd FOnt :size=14:antialias=false
+! xft:mononoki:style=Regular:spacing=mono:size=11:antialias=true
+XTerm.vt100.metaSendsEscape: true
+
+! Sane copy paste behaviour
+XTerm.selectToClipboard: true
+XTerm.vt100.translations: #override \
+    Shift Ctrl <Key> C: copy-selection(CLIPBOARD) \n\
+    Shift Ctrl <Key> V: insert-selection(CLIPBOARD)
+
+! Mountain Xresources palette
+*.foreground: #f0f0f0
+*.background: #0f0f0f
+*.color0:     #262626
+*.color8:     #4c4c4c
+*.color1:     #ac8a8c
+*.color9:     #c49ea0
+*.color2:     #8aac8b
+*.color10:    #9ec49f
+*.color3:     #aca98a
+*.color11:    #c4c19e
+*.color4:     #8f8aac
+*.color12:    #a39ec4
+*.color5:     #ac8aac
+*.color13:    #c49ec4
+*.color6:     #8aabac
+*.color14:    #9ec3c4
+*.color7:     #e7e7e7
+*.color15:    #f5f5f5
